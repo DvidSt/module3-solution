@@ -1,0 +1,90 @@
+* {
+    font-family: sans-serif, Cambria;
+}
+
+:root {
+ 
+
+    --color-black: #080708;
+   
+
+    --color1: #4381C1;
+    --color2: #3C7A89;
+    --color3: #593F62;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+h1{
+    color: #080708;
+    margin-top: -10px;
+}
+
+.nav{
+    background-color: #fff;
+}
+
+
+
+h2 {
+
+    color: var(--color-black);
+    font-size: 4em;
+    width: auto;
+    padding: .5em;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 4px solid var(--color-black);
+    font-size: 1.1em;
+    margin-bottom: 5rem;
+
+    
+
+}
+
+.element-title {
+    align-self: flex-end;
+    margin: unset;
+
+    border: 3px solid var(--color-black);
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+#chicken {
+    background-color: var(--color1);
+}
+
+#beef {
+    background-color: var(--color2);
+}
+
+#sushi {
+    background-color: var(--color3);
+}
+
